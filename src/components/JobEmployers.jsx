@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import employerLogo from "../images/bs logo.jpg";
+import uniquelogo from "../images/unique.jpg";
 import shadows from "@mui/material/styles/shadows";
 
 const JobEmployers = () => {
@@ -14,7 +15,7 @@ const JobEmployers = () => {
 
   // Employers data
   const employers = [
-    { logo: employerLogo, company: "Unique Saints Design" },
+    { logo: uniquelogo, company: "Unique Saints Design" },
     { logo: employerLogo, company: "BlinkStar Designs" },
     { logo: employerLogo, company: "Kilar Novels" },
     { logo: employerLogo, company: "Mandy Investments" },

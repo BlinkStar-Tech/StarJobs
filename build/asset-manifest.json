@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.eb3eb190.js",
+    "static/js/488.fb4bae59.chunk.js": "/static/js/488.fb4bae59.chunk.js",
+    "static/media/we-are-hiring-concept-collage.jpg": "/static/media/we-are-hiring-concept-collage.70b57865983b5a40ab26.jpg",
+    "static/media/login.jpg": "/static/media/login.c59f6567d570f1cd156d.jpg",
+    "static/media/bs logo.jpg": "/static/media/bs logo.a6cca9abd04911d3a7a1.jpg",
+    "static/media/banner.jpg": "/static/media/banner.a17c6d93db470281b3b8.jpg",
+    "static/media/icon.png": "/static/media/icon.2969c205e8af9cd48d5e.png",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.eb3eb190.js.map": "/static/js/main.eb3eb190.js.map",
+    "488.fb4bae59.chunk.js.map": "/static/js/488.fb4bae59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.eb3eb190.js"
+  ]
+}
