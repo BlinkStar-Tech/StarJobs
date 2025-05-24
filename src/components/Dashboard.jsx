@@ -37,10 +37,51 @@ const Dashboard = () => {
     }
   };
 
+  const styles = {
+    container: {
+      fontFamily: "Arial, sans-serif",
+      backgroundColor: "#f4f4f4",
+      padding: "20px",
+    },
+    form: {
+      background: "white",
+      borderRadius: "8px",
+      boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)",
+      maxWidth: "600px",
+      margin: "auto",
+      padding: "20px",
+    },
+    input: {
+      width: "100%",
+      padding: "10px",
+      margin: "10px 0",
+      border: "1px solid #ccc",
+      borderRadius: "4px",
+      boxSizing: "border-box",
+    },
+    button: {
+      backgroundColor: "#007BFF",
+      color: "white",
+      border: "none",
+      padding: "10px 15px",
+      borderRadius: "4px",
+      cursor: "pointer",
+      fontSize: "16px",
+      width: "100%",
+    },
+    buttonHover: {
+      backgroundColor: "#0056b3",
+    },
+    heading: {
+      color: "#333",
+      textAlign: "center",
+    },
+  };
+
   return (
-    <div>
-      <h2>Post a Job</h2>
-      <form onSubmit={handleSubmit}>
+    <div style={styles.container}>
+      <h2 style={styles.heading}>Post a Job</h2>
+      <form onSubmit={handleSubmit} style={styles.form}>
         <input
           type="text"
           name="title"
@@ -48,6 +89,7 @@ const Dashboard = () => {
           value={job.title}
           onChange={handleChange}
           required
+          style={styles.input}
         />
         <textarea
           name="description"
@@ -55,6 +97,7 @@ const Dashboard = () => {
           value={job.description}
           onChange={handleChange}
           required
+          style={{ ...styles.input, height: "100px" }}
         />
         <input
           type="text"
@@ -63,6 +106,7 @@ const Dashboard = () => {
           value={job.location}
           onChange={handleChange}
           required
+          style={styles.input}
         />
         <input
           type="number"
@@ -71,6 +115,7 @@ const Dashboard = () => {
           value={job.salary}
           onChange={handleChange}
           required
+          style={styles.input}
         />
         <input
           type="text"
@@ -79,8 +124,11 @@ const Dashboard = () => {
           value={job.company_name}
           onChange={handleChange}
           required
+          style={styles.input}
         />
-        <button type="submit">Post Job</button>
+        <button type="submit" style={styles.button}>
+          Post Job
+        </button>
       </form>
     </div>
   );
