@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 import Icon from "../images/icon.png"; // Importing the same icon
 import bannerImage from "../images/login.jpg"; // Using the same banner image
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Importing icons from react-icons
@@ -94,6 +95,9 @@ const Register = () => {
         <button type="submit" style={styles.button}>
           Register
         </button>
+        <Link to="/login" style={styles.link}>
+                  Already have an Account
+                </Link>
       </form>
     </div>
   );

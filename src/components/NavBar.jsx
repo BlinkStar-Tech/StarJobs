@@ -37,7 +37,9 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = (setting) => {
     setAnchorElUser(null);
     if (setting === "Login") {
-      navigate("/login"); // Navigate to the sign-in route
+      navigate("/login"); // Navigate to the login route
+    } else if (setting === "Dashboard") {
+      navigate("/dashboard"); // Navigate to the dashboard route
     }
   };
 
