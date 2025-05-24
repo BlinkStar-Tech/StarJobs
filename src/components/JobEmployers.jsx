@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import employerLogo from "../images/bs logo.jpg";
 import uniquelogo from "../images/unique.jpg";
+import kilalogo from "../images/kilalogo.png";
+import proverblogo from "../images/Proverb Tech Logo.png";
 import shadows from "@mui/material/styles/shadows";
 
 const JobEmployers = () => {
@@ -17,10 +19,8 @@ const JobEmployers = () => {
   const employers = [
     { logo: uniquelogo, company: "Unique Saints Design" },
     { logo: employerLogo, company: "BlinkStar Designs" },
-    { logo: employerLogo, company: "Kilar Novels" },
-    { logo: employerLogo, company: "Mandy Investments" },
-    { logo: employerLogo, company: "Proverb Tech" },
-    { logo: employerLogo, company: "Blessy Fashions" },
+    { logo: kilalogo, company: "Kilar Novels" },
+    { logo: proverblogo, company: "Proverb Tech" },
   ];
 
   // Responsive styles based on window width
