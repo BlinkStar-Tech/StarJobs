@@ -3,7 +3,7 @@ import employerLogo from "../images/bs logo.jpg";
 import uniquelogo from "../images/unique.jpg";
 import kilalogo from "../images/kilalogo.png";
 import proverblogo from "../images/Proverb Tech Logo.png";
-import shadows from "@mui/material/styles/shadows";
+// import shadows from "@mui/material/styles/shadows";
 
 const JobEmployers = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
