@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Sidebar from "../dashboard/Sidebar";
+
 
 const Dashboard = () => {
   const [job, setJob] = useState({
@@ -80,6 +82,7 @@ const Dashboard = () => {
 
   return (
     <div style={styles.container}>
+      <Sidebar />
       <h2 style={styles.heading}>Post a Job</h2>
       <form onSubmit={handleSubmit} style={styles.form}>
         <input
